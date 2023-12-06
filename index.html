@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="main" id="main">
+            <h1 class="header">TO-DO APP</h1>
+           
+             <div class="background-inp">
+                <p> enter the tasks </p>
+                <i class="fa-solid fa-plus add"></i>
+             </div>
+            
+            <!-- <p class="error"></p> -->
+
+            <h2 class="header-task">Tasks</h2>
+
+            <!-- task-area -->
+            <div class="task-area">
+                <!-- <div class="task-content">
+                    <p class="task-hed">Body</p>
+                    <p class="task-date">2023-05-22</p>
+                    <p class="task-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla molestiae rem consequuntur tenetur eaque error dolor quis odio consectetur, explicabo vitae beatae reiciendis eveniet. Quaerat nulla dolor velit deserunt assumenda!</p>
+                    <div class="icons">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div> -->
+
+
+            </div>
+
+
+            <!-- input area  -->
+            <div class="input-area" id="inputcont">
+                <div class="input-header">
+                    <p>Add New Task</p>
+                    <i class="fa-solid fa-x" id="cancel"></i>
+                </div>
+                <div class="inp">
+                    <label for="title"> <p>Task Title</p></label>
+                    <input type="text" id="title">
+                </div>
+                <div class="inp">
+                    <label for="due"><p>Due Date</p></label>
+                    <input type="date" name="" id="due">
+                </div>
+                <div class="inp">
+                    <label for="des"><p>Description</p></label>
+                    <textarea name="" id="des"></textarea>
+                </div>
+                <div class="footer">
+                    <button id="add-btn">Add</button>
+                </div>
+                <!-- <div class="bac">
+
+                </div> -->
+            </div>
+           
+
+        </div>
+    </div>
+
+            <!-- javascript added  -->
+    <script src="script.js"></script>
+</body>
+</html>
